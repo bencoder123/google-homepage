@@ -1,6 +1,9 @@
 .logo{
 	margin: auto;
 	width: 0;
+	top: 200px;
+	right: 100px;
+	position: relative;
 }
 form {
 	margin: auto;
@@ -9,11 +12,22 @@ form {
 li {
 	display: inline;
 	padding-left: 10px;
+	font-size: 12px;
+	font-weight: 400;
+	padding-top: 5px;
+	padding-right: 10px; 
+	padding-bottom: 5px;
 
+}
+a:visited, a:link, a:active
+{
+    text-decoration: none;
+    color: black;
 }
 li a:hover {
 	text-decoration: underline;
-	color: grey;
+	
+
 }
 ul {
   list-style-type: none;
@@ -23,7 +37,14 @@ ul {
 }
 .right{
 	float: right;
-	right:  95px;
+	right: 15px;
 	position: relative;
 }
-a { color:black }
+.anmelden a{
+	color: white;
+	font-weight: 700;
+}
+.anmelden {
+	background-color: rgb(0,0,255);
+	
+}
