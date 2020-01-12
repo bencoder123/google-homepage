@@ -1,3 +1,8 @@
+*{
+margin:0px;
+padding:0px;
+}
+
 nav {
 	display: flex;
     font-size: 13px;
@@ -28,6 +33,22 @@ li {
    }
 #navGridImage {
 	width: 25px;
+}
+
+#signin {
+
+    background-color: #4584ef;
+    border: none;
+    text-align: center;
+    border-radius: 3px;
+    color: #ffff;
+    padding: 6px 12px;
+    margin: 0px 30px 0px 0px;
+    font-family: arial;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+
 }
 .logo{
 	margin: auto;
